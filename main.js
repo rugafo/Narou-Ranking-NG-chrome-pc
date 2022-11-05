@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Narou Ranking NG chrome pc
-// @namespace    h
+// @namespace    https://github.com/rugafo/Narou-Ranking-NG-chrome-pc
 // @version      1.2
 // @description  小説家になろう（厳密には小説を読もう）ランキングでのNGフィルタリング機能を提供
-// @author       j
+// @author       rugafo
 // @match        https://yomou.syosetu.com/rank/genrelist/type/*
 // @match        https://yomou.syosetu.com/rank/list/type/*
 // @grant        GM_addStyle
@@ -16,18 +16,6 @@
 
 /*
 更新履歴
-    v1.7
-    予定している新機能追加に向け、機能そのままに手直し。
-
-    v1.6
-    ノードの設定ミスで正しく非表示にできていない問題の修正
-
-    ver 1.5
-    GM_addStyleを使って短く。
-    可読性向上（順序入れ替え、注釈など）
-
-    ver 1.4
-    スクリプトの名前をNarou ranking ngからNarou Ranking NGに変更
 
     ver 1.3
     メニュー作成を目指してとりあえずNGセーブデータのエクスポート機能を実装。
@@ -35,6 +23,7 @@
     なおこれは暫定的な配置です。良くない配置のUIなのでメニュー実装までのつなぎです。
     エクスポートボタンを押すとコンソールにNGセーブデータが表示されます。
     コンソールはF12を押すことで見られます。後は適宜保存するなどお願いします。
+    
 */
 
 
